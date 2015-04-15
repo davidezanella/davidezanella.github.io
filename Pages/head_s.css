@@ -1,0 +1,10 @@
+﻿body {
+    background-color:lightgreen;
+    width:auto;
+    height:auto;
+}
+#titolo{
+    text-align:center;
+    font-size:26px;
+    font-weight:bold;
+}
