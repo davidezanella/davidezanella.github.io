@@ -1,18 +1,434 @@
 ﻿<!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="referrer" content="always" />
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+
     <title>Davide Zanella</title>
-    <link href="stile.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+
+    <link href="style.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </head>
-    <frameset rows="25%,*" border="0" frameborder="0" scrolling="no">
-        <frame id="head" src="Pages/head.html" scrolling="no"></frame>
-        <frame src="Pages/corpo.html" scrolling="auto"></frame>
-    </frameset>
-<noframes>
-    <body>
-        Viewing this page requires a browser capable of displaying frames.<br><br>
-        Per visualizzare questa pagina &egrave; richiesto un browser che supporta i frames.
-    </body>
-</noframes>
-</html>
+<body style="background-image:url(bg2.jpg);">
+    <div class="container">
+        <div class="row col-sm-8 col-sm-offset-2" style="background-image:url(bg1.jpg);padding:20px 5px 20px 5px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;">
+            <div class="col-md-6">
+                <center>
+                    <img src="me.jpg" class="img-responsive img-circle" alt="Davide Zanella" style="width:200px;height:auto;" />
+                </center>
+            </div>
+
+            <div class="col-md-6 row">
+                <div class="col-md-12">
+                    <center>
+                        <h1 style="color:white"><b>Davide Zanella</b></h1>
+                    </center>
+                </div>
+                <div class="col-md-12" style="margin-top:10px">
+                    <center>
+                        <a href="mailto:davide.zanella10@gmail.com">
+                            <h4 style="color:white"><img width="32" src="new_email.png" />    davide.zanella10@gmail.com</h4>
+                        </a>
+                    </center>
+                </div>
+                <div class="col-md-12">
+                    <center>
+                        <h4 style="color:white">
+                            <img width="32" src="new_place.png" style="margin-bottom:10px" />    Trento TN - Italy</h4>
+                    </center>
+                </div>
+                <div class="col-md-12">
+                    <center>
+                        
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="row col-sm-8 col-sm-offset-2" style="padding:20px 20px 20px 20px;background-color:rgba(255, 255, 255, 0.3);border-radius:7px">
+
+
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default verde">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                <div class="row">
+                                    <div class="col" style="padding-left:15px"><h4><b>Esperienze lavorative</b></h4></div>
+                                </div>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Settembre 2017 - Novembre 2017</h5>
+                                </div>
+                                <div class="col-md-9">
+                                    <h5><b>Sviluppo del portale www.giustup.it</b></h5>
+                                    <p>
+                                        Ho sviluppato su commissione un portale (https://www.giustup.it/) che permette di svolgere ricerche full text sui PDF delle sentenze civili pubblicate dal ministero della giustizia implementando un’autenticazione forte basata su certificato presente su chiavette di tipo CNS.
+
+                                        <ul>
+                                            <li>Piattaforma basata su pagine ASP.NET e software Alfresco per indicizzare i pdf e relativi metadati. Anche i programmi ausiliari al sito, come il software che scarica le sentenze dal ministero sono stati realizzati in c#.</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Settembre 2016</h5>
+                                </div>
+                                <div class="col-md-9">
+                                    <h5><b>Realizzazione portale gestionale per Centro Estetico</b></h5>
+                                    <p>
+                                        Ho realizzato un portale appositamente progettato per gestire la lista dei clienti e lo storico dei lavori di un centro estetico.
+
+                                        <ul>
+                                            <li>Il portale si compone di gestione dei clienti, gestione dei trattamenti possibili per i clienti e lo storico dei trattamenti per ogni cliente, in modo da gestire al meglio un centro estetico.</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Agosto 2016</h5>
+                                </div>
+                                <div class="col-md-9">
+                                    <h5><b>Programmatore presso Metacortex</b></h5>
+                                    <p>
+                                        Ho lavorato come programmatore Java presso Metacortex (http://www.metacortex.it/) per circa un mese dopo essermi diplomato.
+
+                                        <ul>
+                                            <li>Modifica e sistemazione di un sito web scritto in Java per la gestione dei clienti per il consorzio “la Trentina”.</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Gennaio 2016 - Giugno 2016</h5>
+                                </div>
+                                <div class="col-md-9">
+                                    <h5><b>Sviluppo tesina in collaborazione con Dedagroup</b></h5>
+                                    <p>
+                                        Ho sviluppato il mio progetto tesina per l’esame di stato della scuola superiore insieme a altri miei due compagni di classe in collaborazione con Dedagroup (http://www.dedagroup.it)
+
+                                        <ul>
+                                            <li>Piattaforma che permette di monitorare lo stato di alcuni server sparsi nel mondo. Sito web e programmi sviluppati in c#.</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Luglio 2015</h5>
+                                </div>
+                                <div class="col-md-9">
+                                    <h5><b>Tirocinio presso A.P.S.P. Grazioli</b></h5>
+                                    <p>
+                                        Tirocinio formativo svolto con la scuola presso A.P.S.P. Margherita Grazioli (http://www.apspgrazioli.it/) della durata di circa 4 settimane.
+                                        <ul>
+                                            <li>Realizzazione di un sito web in ASP.NET per prenotare il pasto nella mensa, con stampa di etichette e caricamento del menù del giorno.</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Da settembre 2015</h5>
+                                </div>
+                                <div class="col-md-9">
+                                    <h5><b>Bot di telegram per fitet trentino</b></h5>
+                                    <p>
+                                        Ho realizzato non su commissione un bot di telegram che invia notizie prese dal sito nazionale per i giocatori di tennistavolo trentini.
+                                        <ul>
+                                            <li>Bot realizzato con python e mysql che prende i dati dal sito internet della fitet.</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default rosso">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                <div class="row">
+                                    <div class="col" style="padding-left:15px"><h4><b>Istruzione e formazione</b></h4></div>
+                                </div>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>da settembre 2016</h5>
+                                </div>
+                                <div class="col-md-9">
+                                    <h5><b>Scienze informatiche presso Università degli Studi di trento</b></h5>
+                                    <p>
+                                        Sto attualmente frequentando l’Università di Trento e in particolare il corso di Scienze Informatiche
+                                    </p>
+                                </div>
+                            </div>
+
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>settembre 2013 - luglio 2016</h5>
+                                </div>
+                                <div class="col-md-9">
+                                    <h5><b>Studente presso I.T.T. Guglielmo Marconi</b></h5>
+                                    <p>
+                                        Ho frequentato il triennio della scuola Superiore a Rovereto (TN) all’Istituto Tecnico Tecnologico Marconi nell’indirizzo a specializzazione Informatica. A luglio 2016 mi sono diplomato con voto 100/100
+                                    </p>
+                                </div>
+                            </div>
+
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>settembre 2011 - giugno 2013</h5>
+                                </div>
+                                <div class="col-md-9">
+                                    <h5><b>Studente presso I.T.T. Michelangelo Buonarroti</b></h5>
+                                    <p>
+                                        Ho frequentato il primo biennio della scuola Superiore a Trento all’Istituto Tecnico Tecnologico Buonarroti svolgendo il percorso comune a tutti gli indirizzi di studio.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default arancio">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                <div class="row">
+                                    <div class="col" style="padding-left:15px"><h4><b>Certificazioni</b></h4></div>
+                                </div>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Linguistiche</h5>
+                                </div>
+                                <div class="col-md-9">
+                                    <h5><b>Certificazioni linguistiche</b></h5>
+                                    <ul>
+                                        <li>Inglese: FCE B2</li>
+                                        <li>Tedesco: A2</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <hr />
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Informatiche</h5>
+                                </div>
+                                <div class="col-md-9">
+                                    <h5><b>Certificazioni informatiche</b></h5>
+                                    <ul>
+                                        <li>EUCIP modulo 1</li>
+                                        <li>ECDL</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <hr />
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Altro</h5>
+                                </div>
+                                <div class="col-md-9">
+                                    <h5><b>Certificazioni di altro tipo</b></h5>
+                                    <ul>
+                                        <li>Primo soccorso e utilizzo BLSD defibrillatore semi automatico</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default blu">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                                <div class="row">
+                                    <div class="col" style="padding-left:15px"><h4><b>Conoscenze informatiche</b></h4></div>
+                                </div>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Linguaggi di programmazione</h5>
+                                </div>
+                                <div class="col-md-9">
+                                    <h5><b>Conoscenza dei seguenti linguaggi:</b></h5>
+                                    <ul>
+                                        <li>C# (programmi e siti apsx)</li>
+                                        <li>Java (programmi, applicazioni Android e siti web)</li>
+                                        <li>Node.js (webservice)</li>
+                                        <li>Python</li>
+                                        <li>HTML + CSS + Javascript</li>
+                                        <li>Angular.js</li>
+                                        <li>Bootstrap</li>
+                                        <li>Ionic Framework (app ibride per ios e android)</li>
+                                        <li>MySQL</li>
+                                        <li>accenni di SML (linguaggio funzionale)</li>
+                                        <li>accenni di PHP</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="well">
+                <h4><b>I miei Progetti</b></h4>
+
+                <div id="myCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="item active">   
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <center><h4><b>Giustup.it</b></h4></center>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <p>Portale che permette, previo abbonamento, agli avvocati iscritti al REGINDE di consultare con una ricerca di tipo full text i PDF delle sentenze della giustizia civile pubblicati sul sito del ministero della giustizia. <br/> L'accesso al portale avviene con una autenticazione di tipo forte tramite certificato presente su chiavetta CNS.</p>
+                                    <p><b>Linguaggi e strumenti utilizzati:</b> ASP.NET, c#, MySQL, Alfresco, Bootstrap, HTML, CSS, JavaScript, jQuery</p><br/>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img src="giustup1.PNG" alt="Image" class="img-responsive"><a href="#"></a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <img src="giustup2.PNG" alt="Image" class="img-responsive"><a href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <center><h4><b>MensaClick</b></h4></center>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <p>Portale che permette ai dipendenti dell'A.P.S.P. Margherita Grazioli di prenotare i pasti in mensa in base al menù del giorno che viene caricato dinamicamente da un file apposito.<br/>Il portale permette anche di stampare delle apposite etichette per meglio identificare il vassoio per il prenotante.</p>
+                                    <p><b>Linguaggi e strumenti utilizzati:</b> ASP.NET, c#, MySQL, Bootstrap, HTML, CSS, JavaScript</p><br />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img src="" alt="Image" class="img-responsive"><a href="#"></a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <img src="" alt="Image" class="img-responsive"><a href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <center><h4><b>Gestionale centro estetico</b></h4></center>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <p>Portale che permette alle dipendenti del centro estetico VeraEstetica di memorizzare tutti i clienti con i relativi dati personali. Il sistema permette di creare uno storico dei trattamenti fatti per ogni cliente oltre che gestire i buoni regalo e gli abbonamenti dei clienti.</p>
+                                    <p><b>Linguaggi e strumenti utilizzati:</b> Node.js, MySQL, Bootstrap, HTML, CSS, JavaScript, jQuery, jTable</p><br />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <a href="#"><img src="estetico1.png" alt="Image" class="img-responsive"></a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a href="#"><img src="estetico2.png" alt="Image" class="img-responsive"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <center><h4><b>Bot di telegram F.I.Te.T. Trentino</b></h4></center>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <p>Bot per telegram che invia delle notifiche agli utenti iscritti quando sul sito della federazione di tennistavolo vengono aggiunti dei nuovi risultati di campionato opure quando escono delle nuove classifiche di atleti.<br/>Utilissima per tutti i pongisti trentini per non perdersi la minima novità!</p>
+                                    <p><b>Linguaggi e strumenti utilizzati:</b> Python, MySQL</p><br />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <a href="#"><img src="bot1.png" alt="Image" class="img-responsive"></a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a href="#"><img src="bot2.png" alt="Image" class="img-responsive"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    
+        <div class="row col-sm-8 col-sm-offset-2" style="background-image:url(bg1.jpg);padding:2px;border-top-left-radius:20px;border-top-right-radius:20px;">
+            <div class="col-md-12">
+                <center>
+                    <h5 style="color:white">Davide Zanella &copy; | All rights reserved</h5>
+                </center>
+            </div>
+        </div>
+    </div>
+</body>

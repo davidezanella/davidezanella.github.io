@@ -1,0 +1,32 @@
+hr{
+    border-top: 1px solid #777777 !important;
+}
+
+.panel-default{
+    background-color:rgba(255,255,255,0) !important; 
+}
+
+.panel-heading{
+    background-color:rgba(255,255,255,0.5) !important;
+}
+
+a:focus, a:hover {
+    text-decoration: none !important;
+}
+
+#myCarousel .item{
+    padding: 5px !important;
+}
+
+.verde b{
+    color:#549352;
+}
+.rosso b{
+    color:#b73721;
+}
+.blu b{
+    color:#162787;
+}
+.arancio b{
+    color:#bc7018;
+}
