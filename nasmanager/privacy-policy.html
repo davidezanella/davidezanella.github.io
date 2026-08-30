@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>NAS Manager Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #f5f7fb;
+      --surface: #ffffff;
+      --text: #18202b;
+      --muted: #5e6878;
+      --accent: #1769cf;
+      --border: #dce3ee;
+      --notice: #fff4d6;
+      --notice-text: #5f4300;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #10141b;
+        --surface: #181e27;
+        --text: #eef3fa;
+        --muted: #b2bdcc;
+        --accent: #72adff;
+        --border: #303947;
+        --notice: #3b310f;
+        --notice-text: #ffe39a;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main {
+      width: min(880px, calc(100% - 32px));
+      margin: 40px auto;
+      padding: clamp(24px, 5vw, 56px);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: 0 12px 35px rgb(0 0 0 / 8%);
+    }
+    h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3rem); line-height: 1.15; }
+    h2 { margin: 2.2rem 0 .65rem; font-size: 1.35rem; line-height: 1.3; }
+    p, ul { margin: .65rem 0; }
+    ul { padding-left: 1.35rem; }
+    a { color: var(--accent); }
+    .meta { color: var(--muted); margin-bottom: 2rem; }
+    .notice {
+      margin: 1.5rem 0;
+      padding: 14px 16px;
+      border-radius: 10px;
+      background: var(--notice);
+      color: var(--notice-text);
+    }
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: .9rem;
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Privacy Policy for NAS Manager</h1>
+    <p class="meta"><strong>Effective date:</strong> August 30, 2026<br>
+      <strong>Developer:</strong> Davide Zanella</p>
+  </header>
+
+  <p>NAS Manager is an independent, unofficial application. It is not affiliated with, endorsed by, or sponsored by QNAP Systems, Inc.</p>
+
+  <h2>1. Scope</h2>
+  <p>This Privacy Policy explains how NAS Manager accesses, uses, stores, and protects information. NAS Manager is a client for network-attached storage devices selected and configured by the user. Connections are made directly between the Android device and the configured NAS. The developer does not operate an intermediary service for these connections.</p>
+
+  <h2>2. Information handled by the application</h2>
+  <p>Depending on the features used, NAS Manager may process:</p>
+  <ul>
+    <li>NAS names, network addresses, usernames, passwords, connection settings, certificate choices, trusted-login tokens, and session identifiers;</li>
+    <li>two-factor authentication codes entered during login;</li>
+    <li>system status, resource usage, processes, services, logs, alerts, notices, and background tasks;</li>
+    <li>file and folder names, metadata, permissions, and content selected for upload or download;</li>
+    <li>Container Station applications, containers, images, volumes, logs, YAML configuration, and interactive shell input and output;</li>
+    <li>firewall, antivirus, malware-removal, remote-access, and other supported NAS settings.</li>
+  </ul>
+  <p>This information is processed only to provide functions requested by the user.</p>
+
+  <h2>3. Information collected by the developer</h2>
+  <p>NAS Manager does not include advertising, analytics, telemetry, crash-reporting, or developer-operated cloud services. The developer does not receive NAS credentials, authentication codes, files, NAS logs, or NAS configuration through the application.</p>
+  <p>Information sent directly to a NAS is not sent to the developer. The NAS and its installed services may process or retain information according to their own configuration and policies.</p>
+  <p>If a user contacts the developer for support, the developer receives only information voluntarily included in that request, such as an email address, message, diagnostic details, or attachments. It is used to answer the request and investigate the reported issue.</p>
+
+  <h2>4. Local storage and security</h2>
+  <p>NAS connection profiles are stored locally on the Android device.</p>
+  <ul>
+    <li>Passwords are stored only when the user explicitly chooses to remember them.</li>
+    <li>Trusted-login tokens are stored only when the user enables trusted login.</li>
+    <li>Stored credentials and tokens are encrypted using Android cryptographic storage backed by Android Keystore facilities.</li>
+    <li>Two-factor authentication codes and TOTP secrets are not stored.</li>
+    <li>Biometric data is handled by Android. NAS Manager does not receive or store biometric templates or raw biometric information.</li>
+    <li>Android cloud backup and device-transfer backup are disabled for the application.</li>
+  </ul>
+  <p>Downloaded files and exported reports may remain in app storage or user-accessible device storage until deleted by the user or removed with the application, depending on the selected destination and Android storage behavior.</p>
+
+  <h2>5. Network communications</h2>
+  <p>NAS Manager communicates with NAS addresses configured by the user. NAS connections use HTTPS. The application may let the user explicitly trust a self-signed certificate presented by a configured NAS. The selected certificate information is retained locally for subsequent connections.</p>
+  <p>The security and availability of each connection also depend on the NAS configuration, certificate management, network, remote-access configuration, and services controlled by the NAS owner.</p>
+
+  <h2>6. File access</h2>
+  <p>For uploads, NAS Manager uses the Android system file picker and receives access only to items selected by the user. Downloads, reports, YAML files, packet captures, logs, and other exports are created only following a user action. Another application receives access only when the user opens or shares a file through Android, or when the file is stored in a user-accessible location.</p>
+
+  <h2>7. Sharing of information</h2>
+  <p>NAS Manager does not sell personal information and does not share it with advertisers, data brokers, analytics providers, or developer-operated servers. Information may be transmitted only to:</p>
+  <ul>
+    <li>the NAS and NAS services selected by the user, as required for requested operations;</li>
+    <li>applications selected by the user when opening or sharing content through Android;</li>
+    <li>the developer, when the user voluntarily submits a support request.</li>
+  </ul>
+
+  <h2>8. Retention and deletion</h2>
+  <p>NAS profiles and locally stored credentials remain on the device until the user removes the profile, forgets trusted login, clears app storage, or uninstalls the application. Removing a NAS profile deletes its locally stored password, trusted-login token, certificate choice, and related configuration. Logging out invalidates the active NAS session but may preserve trusted-login information until explicitly removed.</p>
+  <p>Files exported outside private app storage may need to be deleted separately. Removing a profile does not delete the corresponding account or data from the NAS.</p>
+  <p>Support correspondence is retained only as long as reasonably necessary to answer the request, resolve disputes, maintain security, and meet legal obligations.</p>
+
+  <h2>9. Demo mode</h2>
+  <p>When the built-in demo credentials are used, representative NAS responses are generated locally on the device. Demo mode does not contact a demo server and does not modify an external NAS.</p>
+
+  <h2>10. Children's privacy</h2>
+  <p>NAS Manager is a system administration utility and is not designed or directed to children. It does not knowingly collect personal information from children through a developer-operated service.</p>
+
+  <h2>11. Third-party software and services</h2>
+  <p>NAS Manager uses Android platform components and open-source libraries for app functionality. They are not used by the developer for advertising or behavioral tracking. A configured NAS, its operating system, installed applications, and network services are controlled by the NAS owner or their respective providers, and their data practices are outside the developer's control.</p>
+
+  <h2>12. Changes to this policy</h2>
+  <p>This policy may be updated when app functionality, data practices, legal requirements, or distribution requirements change. The effective date will be updated when a revised policy is published.</p>
+
+  <h2>13. Contact</h2>
+  <p><strong>Davide Zanella</strong><br>
+    <a href="mailto:davide.zanella10@gmail.com">davide.zanella10@gmail.com</a></p>
+
+  <footer>NAS Manager Privacy Policy · Version 1.0</footer>
+</main>
+</body>
+</html>
