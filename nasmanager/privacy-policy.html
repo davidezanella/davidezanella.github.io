@@ -71,7 +71,7 @@
 <main>
   <header>
     <h1>Privacy Policy for NAS Manager</h1>
-    <p class="meta"><strong>Effective date:</strong> August 31, 2026<br>
+    <p class="meta"><strong>Effective date:</strong> October 2, 2026<br>
       <strong>Developer:</strong> Davide Zanella</p>
   </header>
 
@@ -88,6 +88,9 @@
     <li>system status, resource usage, processes, services, logs, alerts, notices, and background tasks;</li>
     <li>file and folder names, metadata, permissions, and content selected for upload or download;</li>
     <li>Container Station applications, containers, images, volumes, logs, YAML configuration, and interactive shell input and output;</li>
+    <li>Download Station tasks, search keywords, download addresses, torrent files selected by the user, RSS feeds, and the username and password entered for a download that requires a login;</li>
+    <li>NAS user accounts and groups: names, descriptions, email addresses, phone numbers, group memberships, shared-folder and application permissions, and the passwords entered when creating an account or changing its password;</li>
+    <li>App Center applications installed on the NAS and the catalog of available applications;</li>
     <li>firewall, antivirus, malware-removal, remote-access, and other supported NAS settings.</li>
   </ul>
   <p>This information is processed only to provide functions requested by the user.</p>
@@ -107,6 +110,7 @@
     <li>Biometric data is handled by Android. NAS Manager does not receive or store biometric templates or raw biometric information.</li>
     <li>Android cloud backup and device-transfer backup are disabled for the application.</li>
   </ul>
+  <p>When home-screen widgets are added, NAS Manager reads the information they show from the NAS in the background, about every 15 minutes and when the user asks for an update. The last values read (for example status, resource usage, storage, downloads, containers, applications, security status, and recent log entries) are kept on the device to draw the widgets, and the session used for these reads is stored encrypted like the credentials above. Widgets are drawn by the Android home screen on the device; their content is not sent anywhere else.</p>
   <p>Downloaded files and exported reports may remain in app storage or user-accessible device storage until deleted by the user or removed with the application, depending on the selected destination and Android storage behavior.</p>
 
   <h2>5. Network communications</h2>
@@ -130,7 +134,7 @@
   <p>Subscriptions renew and can be managed or cancelled through the user's Google Play account. Google processes billing information according to its own privacy policy and terms.</p>
 
   <h2>9. Retention and deletion</h2>
-  <p>NAS profiles and locally stored credentials remain on the device until the user removes the profile, forgets trusted login, clears app storage, or uninstalls the application. Removing a NAS profile deletes its locally stored password, trusted-login token, certificate choice, and related configuration. Logging out invalidates the active NAS session but may preserve trusted-login information until explicitly removed.</p>
+  <p>NAS profiles and locally stored credentials remain on the device until the user removes the profile, forgets trusted login, clears app storage, or uninstalls the application. Removing a NAS profile deletes its locally stored password, trusted-login token, certificate choice, related configuration, and the widget information and widget session kept for it. Removing a widget stops its background reads. Logging out invalidates the active NAS session but may preserve trusted-login information until explicitly removed.</p>
   <p>Files exported outside private app storage may need to be deleted separately. Removing a profile does not delete the corresponding account or data from the NAS.</p>
   <p>Support correspondence is retained only as long as reasonably necessary to answer the request, resolve disputes, maintain security, and meet legal obligations.</p>
 
